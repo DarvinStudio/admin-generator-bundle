@@ -7,6 +7,7 @@ fos_ck_editor:
             filename: plugin.js
     configs:
         darvin_admin:
+            versionCheck:           false
             allowedContent:         true
             extraPlugins:           codemirror
             height:                 300
@@ -58,6 +59,7 @@ fos_ck_editor:
                 templates,
                 wsc
         darvin_admin_compact:
+            versionCheck:           false
             allowedContent:         true
             extraPlugins:           codemirror
             height:                 100
