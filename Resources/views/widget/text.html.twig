@@ -1,5 +1,5 @@
 {% if rows > 1 %}
-    <div class='multiple-rows' data-rows='{{ rows }}'>{{ text|raw }}</div>
+    <div class='multiple-rows' data-rows='{{ rows }}'>{{ text|raw|striptags|escape }}</div>
 {% else %}
     <div>{{ text|raw }}</div>
 {% endif %}
