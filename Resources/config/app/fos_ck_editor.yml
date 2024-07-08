@@ -4,6 +4,7 @@ fos_ck_editor:
     configs:
         darvin_admin:
             allowedContent:                   true
+            versionCheck:                     false
             filebrowserBrowseRoute:           elfinder
             filebrowserBrowseRouteParameters: []
             height:                           300
@@ -53,6 +54,7 @@ fos_ck_editor:
                 wsc
         darvin_admin_compact:
             allowedContent:                   true
+            versionCheck:                     false
             filebrowserBrowseRoute:           elfinder
             filebrowserBrowseRouteParameters: []
             height:                           100
